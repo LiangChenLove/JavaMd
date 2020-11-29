@@ -76,7 +76,7 @@
               System.out.println(collection.size());
               //2.删除元素
       //        collection.remove("organe");
-      //        collection.clear();
+      //        collection.clear();//并没有真正删除元素，只是删除了集合中存储的指针而已
               //3.遍历元素
               //3.1 使用foreach
               for (Object o:collection
